@@ -1,0 +1,9 @@
+The functionality and user instructions of the code are included in the comments of n_body_problem_1_7.R (also included in this folder).
+
+This file is thus primarily here to explain the graphs included the three sub-folders: “Earth and Sun,” “Galaxy of 100,” and “ObjectsColliding.”
+
+“Earth and Sun” documents the rotation of the earth around the sun for an entire year. The files are named earthandsun_week#.pdf. # indicates which week of the year it is; if you go through the weeks in order, you can see the full rotation of the earth around the sun.
+
+“Galaxyof100” documents the movement of 100 randomly-created stars in a galaxy. Each file in the subfolder is named galaxy#.pdf. # indicates the time each plot represents, and each consecutive graph is 20 million years apart. Together, the graphs document a period of 200 million years. The file galaxy1.pdf is at time = 0 years, and the final file, galaxy11.pdf, is at time = 200 million years. Observing these graphs in numerical order allows the user to observe the movement of randomly-created stars in a simulated galaxy over a prolonged period of time, and the code that generates the graphs provides a basic P-code the user can adjust to his/her preferences.
+
+“ObjectsColliding” documents the most simple interaction: the gravitational attraction and subsequent collision between two 100 kg objects with radii of 1 m. The three .pdf files are labelled two100kg_time_#seconds.pdf, and the # in the file name explains how many seconds have passed. The files show the objects moving together and the objects after the collision. The time of the collision is at approximately 3.4 days.
